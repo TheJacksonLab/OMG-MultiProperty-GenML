@@ -1,0 +1,1 @@
+The original Group-SELFIES repository is required for model execution: https://github.com/aspuru-guzik-group/group-selfies. Clone it into this directory before running training scripts.
