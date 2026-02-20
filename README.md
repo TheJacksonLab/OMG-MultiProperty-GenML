@@ -8,12 +8,10 @@ A Generative Machine Learning Framework for Multi‑Property Polymer Design
 This repository contains Python scripts, trained models, and datasets for generative modeling workflow designed for multi-property refinement of polymer chemistries.
 The framework integrates monomer-polymer property correlations, variational autoencoders (VAEs), and Bayesian optimization.
 
-### This repository contains python scripts and data for a generative model for multi-property polymer design.
-
 ## 📦 Environment Setup
 Set up a Python environment using Anaconda. Two options are provided depending on your preference:
 
-### A. Original GPU environment (Linux / NVIDIA)
+### A. GPU Environment Used in This Work (Linux / NVIDIA)
 ```
 conda env create -f environment.yml
 ```
