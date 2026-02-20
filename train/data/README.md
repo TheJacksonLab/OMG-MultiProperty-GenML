@@ -1,0 +1,1 @@
+A zipped data file (`compressed_data.zip`) is located in the directory `./group_selfies_vae_data/polymerization_step_growth_750k`. The raw .csv file (`two_reactants.csv`) containing ~750,000 step growth polymers is provided in the GitHub release, as its size exceeds the GitHub upload limit. 
