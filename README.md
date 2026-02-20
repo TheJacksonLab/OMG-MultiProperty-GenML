@@ -23,19 +23,19 @@ conda env create -f environment-CPU.yml
 ## 🗂 Repository Structure
 Before running any script, update file paths inside the script to match your working directory.
 
-### 1. ./train/data
+### 1. `./train/data`
 Contains training datasets for the generative model.
 
-### 2. ./train/fitting_to_polymer
+### 2. `./train/fitting_to_polymer`
 Includes datasets and scripts constructing monomer–polymer property correlations.
 
-### 3. ./train/group_selfies_vae_train
+### 3. `./train/group_selfies_vae_train`
 Holds a trained model and scripts for training and running the generative VAE.
 
-### 4. ./vae
+### 4. `./vae`
 Core VAE components and supportive utility functions.
 
-### 5. ./group-selfies
+### 5. `./group-selfies`
 The original Group-SELFIES repository is required for model execution: https://github.com/aspuru-guzik-group/group-selfies. Clone it into this directory before running training scripts. 
 
 ## Authors
