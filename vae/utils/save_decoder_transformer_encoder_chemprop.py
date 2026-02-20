@@ -1,7 +1,3 @@
-import os
-import pickle
-
-
 class VAEParameters(object):
     def __init__(self, save_directory, eos_idx, latent_dimension,
                  encoder_feature_dim,
