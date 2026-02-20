@@ -16,15 +16,9 @@ from math import ceil
 from tqdm import tqdm
 from pathlib import Path
 
-from torch.nn import functional as f
 from torch.optim.lr_scheduler import StepLR, ExponentialLR, LambdaLR
 
-from matplotlib.lines import Line2D
-from rdkit.Chem import MolFromSmiles
-from sklearn.metrics import r2_score
-from vae.utils.save import save_model
-
-CHEMPROP_PATH = '/home/sk77/PycharmProjects/omg_multi_task/vae/encoder_chemprop/chemprop'
+CHEMPROP_PATH = '/Users/hwankim/PycharmProjects/OMG-MultiProperty-GenML/vae/encoder_chemprop/chemprop'
 sys.path.append(CHEMPROP_PATH)
 from chemprop.data import MoleculeDataset
 
